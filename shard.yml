@@ -1,0 +1,19 @@
+name: opengl
+version: 0.1.0
+
+authors:
+  - Daniel Smith <jellymann@gmail.com>
+
+crystal: 0.20.5
+
+dependencies:
+  lib_gl:
+    github: jellymann/crystal_lib_gl
+    version: ~> 0.1.3
+
+development_dependencies:
+  glfw:
+    github: jellymann/crystal_glfw
+    version: ~> 0.1.1
+
+license: MIT
